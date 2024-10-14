@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito Sans;
+  text-decoration: none;
+  border: none;
+  background: #19191b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.539);
+}
+
+button {
+  width: 154px;
+  height: 48px;
+  background: #5454d4;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: white;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#header {
+  padding-block: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+}
+
+.logo h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.703);
+}
+nav a:focus {
+  color: #5454d4;
+}
+
+input {
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 150px;
+  height: 20px;
+}
+
+button ion-icon {
+  background: none;
+  rotate: 330deg;
+}
+
+#main {
+  padding-block: 0 40px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main-text h1 {
+  font-size: 50px;
+  width: 300px;
+}
+.main-text p {
+  font-size: 16px;
+  width: 440px;
+  line-height: 35px;
+}
+
+.main-image {
+  max-width: 300px;
+  width: 50%;
+}
+
+.Vectop1 {
+  width: 100px;
+  position: absolute;
+  top: 120px;
+  left: 650px;
+}
+#Vectop2 {
+  width: 50px;
+  position: absolute;
+  background: none;
+  top: 80px;
+  right: 0px;
+}
+
+#Vectop3 {
+  position: absolute;
+  width: 80px;
+  background: none;
+  bottom: 100px;
+  left: 600px;
+}
+#Vectop4 {
+  background: none;
+  position: absolute;
+  width: 35px;
+  bottom: 100px;
+}
+
+.hero .box {
+  width: 200px;
+  width: 200px;
+  background: #fff;
+}
